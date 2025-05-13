@@ -1,0 +1,12 @@
+name: vue-git-actions
+on:
+  label:
+    types:
+      - created
+  push:
+    branches:
+      - main
+jobs:
+  Vue-git-actions-test:
+    runs-on: ubuntu-latest
+    
